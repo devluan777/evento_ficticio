@@ -8,19 +8,66 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,900&display=swap" rel="stylesheet">    <link rel="stylesheet" href="styles/main.scss">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,900&display=swap" rel="stylesheet">    
+<link rel="stylesheet" href="styles/main.scss">
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
 <header class="hero">
     <div class="container">
         <img class="hero__logo" src="./images/logoprincipal.png" alt="ttf">
         <p class="hero__text">
-            O maior evento de trap do Brasil começa em 05d 15h 05m 07s
+            O maior evento de trap do Brasil começa em <span id="contador"></span>
         </p>
+        <div class="infos-bar">
+        <ul class="infos-bar__infos">
+            <li class="infos-bar__infos__item">
+                <b>Localizaçao</b>
+            Memorial arcoverde - Olinda - Pernambuco
+            </li>
+            <li class="infos-bar__infos__item">
+                <b>Preço</b>
+                A partir de R$ 180,00
+            </li>
+            <li class="infos-bar__infos__item">
+                <b>Quando</b>
+                06/05/2024 às 21hrs
+            </li>
+        </ul>
+        <a href="#" class="button button--primary">
+        Garanta sua vaga
+        </a>
+        </div>
     </div>
 </header>
+<section class="event event--sobreoevento">
+    <div class="container" data-aos="fade-right">
+        <div class="event__details">
+            <h2 class="event__details__title">
+        Sobre o evento
+            </h2>
+            <p class="event__details__drescription">O evento contará com mais de 7 artistas referência no trap Brasil, em comemoração ao aniversário do nosso amigo e parceiro <b>Luan victor</b>. Você não pode ficar de fora!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam quas suscipit placeat animi. Et unde itaque quam similique. Illo, illum. Quae, vel deleniti. Delectus reiciendis similique esse soluta ducimus quaerat!
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni quas earum vero reiciendis at sit tempora, quod totam ad fuga recusandae. Minima deserunt facere consectetur dolor quisquam, voluptate odit dicta?</p>
+        </div>
+        <img class="event__image" src="./images/plantaofestivallogo.jpg" alt="plantao">
+    </div>
+</section>
+
+<section class="event event--detalhes event--image-left">
+    <div class="container" data-aos="fade-left">
+        <div class="event__details">
+            <h2 class="event__details__title">
+        Detalhes do evento
+            </h2>
+            <p class="event__details__drescription"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, dolore aspernatur asperiores eveniet repellat quas odit! Officiis, in! Labore inventore doloremque itaque eum cupiditate voluptatem laboriosam aliquam expedita rerum non. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel nostrum corporis libero a illo possimus cum, inventore provident atque eos dolore soluta qui repellendus aperiam unde voluptates eaque? Cum, Lorem ipsum dolor sit amet consectetur adipisicing elit. At, earum minima? Repellendus officia iste, itaque dolorem, alias aperiam veritatis, error ea quam doloremque ipsa ipsam! Dignissimos, ea ad! Enim, aliquam.</p>
+        </div>
+        <img class="event__image" src="./images/event_image-04b7b2a51a5ed1c38963bc08e70c9b99.png" alt="artistas">
+    </div>
+</section>
 
 
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script src="scripts/main.js"></script>
 </body>
 </html>
